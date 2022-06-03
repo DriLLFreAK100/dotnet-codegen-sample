@@ -8,6 +8,8 @@
 
   <ItemGroup>
     <None Remove="DotnetCodegen" />
+    <None Remove="GeneratedOutputs\interface-root.ts" />
+    <None Remove="GeneratedOutputs\interface-child.ts" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="DotnetCodegen" Version="0.0.1" />
